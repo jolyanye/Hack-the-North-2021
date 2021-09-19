@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/originals/00/d6/4e/00d64ea16f15bf58ec4dd6e5db1e8669.png);
+    background-size: cover;
+}
+table, th, td{
+  font-size: 13px;
+  padding: 8px;
+  text-align: center;
+}
+
+h1, h2, p {
+  line-height: 1.5em;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+table {
+  width: 80;
+}
+
+td {
+  border: none;
+ text-align: center;
+ padding: 10px 10px 10px 10px;
+
+}
+
+    /*NAVBAR START*/
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background:#000;
+    color: #fff;
+    padding: 10px 4em;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.nav li{
+    list-style: none;
+    margin: auto;
+
+
+
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-right:2em;
+    text-transform: uppercase;
+    font-size: 1em;
+
+}
+
+.toggle{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.bar{
+    width: 100%;
+    background: #fff;
+    height: 3px;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: rgb(216, 185, 10);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    transition-duration: 0.4s;
+}
+
+.dropdown-content a:hover {
+  font-size: 21px;
+  background-color: #141414;
+  color: rgb(216, 185, 10);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#gamelogo {
+  height: 50px;
+  width: 86px;
+  position: relative;
+  right: 40px;
+  padding: 2px 2px 2px 2px;
+}
+
+/*NAVBAR END*/
+
+/*BUTTON CODE START*/
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+
+}
+
+.button1:hover {
+  padding: 16px 32px;
+  border: 2px solid white;
+  background-color: #555555;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button2:hover {
+  padding: 16px 32px;
+  border: 2px solid white;
+  background-color: #555555;
+  color: white;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.button3:hover {
+  padding: 25px 40px;
+  border: 2px solid rgb(216, 185, 10);
+  background-color: #141414;
+  color: rgb(216, 185, 10);
+}
+
+/*BUTTON CODE END*/
